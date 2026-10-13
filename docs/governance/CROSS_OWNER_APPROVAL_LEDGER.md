@@ -23,3 +23,8 @@ States: UNREVIEWED, DRAFT, BLOCKED_EXTERNAL_OWNER, REVIEW_REQUESTED, ISSUER_ACCE
 
 ## Decision order and stops
 DM first reviews its own draft. HR issuer signs an **actual** wire, then DM accepts a pinned consumer mapping; independently complete Kernel/Workflows/security/Work Management/Package owner reviews. QA/MET and release approval come last and require actual evidence. Current result: all external issuer rows blocked. This is documentation only, no executable PASS and no assumption of runtime availability.
+
+## ARBEIT-ARCH-12 — CO-02 negotiation handoff
+- DM issuer question packet: [HR_STAFFING_NEGOTIATION_PACKET](../contracts/HR_STAFFING_NEGOTIATION_PACKET.md); commit `3e7aa89ae8558ac51ac71732f2fdd2a5381a8ee0`.
+- DM assignment consistency and partial-commit failure cases: [STAFFING_ASSIGNMENT_CONSISTENCY](../architecture/STAFFING_ASSIGNMENT_CONSISTENCY.md); commit `65e44c996c749a20107c4d94466c722fa0073296`.
+- CO-02 state remains `BLOCKED_EXTERNAL_OWNER`. No HR issuer acceptance, issued wire, signed receipt model or consumer compatibility evidence. The packet was recorded in DM, not sent/approved in the HR repository.
