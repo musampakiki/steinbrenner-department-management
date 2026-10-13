@@ -11,3 +11,8 @@ Module: Department Management. Date 2026-10-14. Exact issuer versions require fu
 | Team Agents HR | steinbrenner-team-agents/docs/contracts/HR_EMPLOYER_SCHEMA_OWNER_ALIGNMENT_TA_DOC_11.md | blob `bebecbbadbc6dd420005f9c076b0432b9cdf363e` CANDIDATE |
 Kernel, Workflows, App Installation, Auth/RBAC, Tenancy, KMS, Audit, Work Management, Organization Composition and Department Packages: exact owner-issued public contract version/SHA **NOT PINNED**, cross-owner approval OPEN. Do not fabricate acceptance.
 Precedence: issuing owner's public versioned schema controls its domain. Local consumer mappings are not competing truth. Documentation-only platform targets do not change owner API.
+
+## ARBEIT-ARCH-11 evidence pin update (2026-10-14)
+- Team Agents HR candidate schema: `docs/contracts/schemas/hr-employer-integration.candidate-0.1.schema.json`, branch `agent/team-agents-development`, blob `57012796fa10490db2aaf3ec1e87fa6706f86935`, schema ID `urn:steinbrenner:ta:hr-employer:candidate-0.1`. This is **UNACCEPTED**, not a supported API contract version.
+- HR external employer standard blob `a4e0ba6e52b0c048ab562d30fb523e62ee1d1af0`; no acceptance of wire.
+- Current module draft issuer policy: [ISSUER_VERSIONING_POLICY](../contracts/ISSUER_VERSIONING_POLICY.md); HR read-only review [HR_ISSUER_PIN_AND_COMPATIBILITY_REVIEW](../contracts/HR_ISSUER_PIN_AND_COMPATIBILITY_REVIEW.md); [cross-owner approval ledger](CROSS_OWNER_APPROVAL_LEDGER.md).
