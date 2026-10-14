@@ -28,3 +28,6 @@ DM first reviews its own draft. HR issuer signs an **actual** wire, then DM acce
 - DM issuer question packet: [HR_STAFFING_NEGOTIATION_PACKET](../contracts/HR_STAFFING_NEGOTIATION_PACKET.md); commit `3e7aa89ae8558ac51ac71732f2fdd2a5381a8ee0`.
 - DM assignment consistency and partial-commit failure cases: [STAFFING_ASSIGNMENT_CONSISTENCY](../architecture/STAFFING_ASSIGNMENT_CONSISTENCY.md); commit `65e44c996c749a20107c4d94466c722fa0073296`.
 - CO-02 state remains `BLOCKED_EXTERNAL_OWNER`. No HR issuer acceptance, issued wire, signed receipt model or consumer compatibility evidence. The packet was recorded in DM, not sent/approved in the HR repository.
+
+## ARBEIT-ARCH-14 — CO-01/CO-02 bilateral decision hold
+[Read-only HR/DM comparison](../contracts/HR_DM_BILATERAL_CONSUMER_SIGNOFF_GATE_ARCH_14.md), source candidate pins HR `c093cc449780ed935127dac4df0d144c7fe6be4a` and DM `e63ac587be1bf41d6c38a760677aa336669cdb9d`. Target alignment documented for receipt/currentness/idempotency; issuer signatures and accepted version/transport remain absent. **CO-01 UNSIGNED; CO-02 BLOCKED_EXTERNAL_OWNER; BILATERAL NOT_SIGNED.**
