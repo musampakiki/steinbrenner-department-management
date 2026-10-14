@@ -17,3 +17,5 @@ Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first 
 - [ARBEIT-ARCH-19 FC3 consumer mapping](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_19_FC3_CONFORMANCE.md) and [DM mapping](docs/contracts/HR_FC3_DM_CONSUMER_MAPPING_ARCH_19.md): HR schema blob `a12ca2ca4a176fac28715dc9772783e22365c46d`; no issuer/consumer approval.
 
 - [ARBEIT-ARCH-20 HR FC4/consumer timeout](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_20_FC4_AUTHORITY_SEPARATION.md): [DM mapping](docs/contracts/HR_FC4_CONSUMER_MAPPING_ARCH_20.md), HR candidate blob `d1306a7e80492f11ac00ce25a9533142b24573b0`. No signoff.
+
+- [ARBEIT-ARCH-21 operation lookup/recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_21_RECEIPT_PERSISTENCE_LOOKUP.md): [DM consumer design](docs/contracts/HR_OPERATION_LOOKUP_DM_RECOVERY_ARCH_21.md); HR owner doc blob eb217a3f9945a5d8ff98a065cd290f1eff57bad5; no approval.
