@@ -34,3 +34,6 @@ DM first reviews its own draft. HR issuer signs an **actual** wire, then DM acce
 
 ## ARCH-15 CO-02 checkpoint
 HR receipt freeze candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`, not accepted wire. [DM compatibility review](../contracts/HR_PLACEMENT_RECEIPT_CONSUMER_COMPATIBILITY_ARCH_15.md). CO-01 unsigned, CO-02 blocked, QA/MET not executed, PRECODE HOLD.
+
+## ARCH-16 signoff readiness
+HR issuer candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`; DM signoff checklist [here](HR_PLACEMENT_CONSUMER_SIGNOFF_PREPARATION_ARCH_16.md). CO-01 UNSIGNED; CO-02 BLOCKED_EXTERNAL_OWNER; no HR contract approval or DM consumer acceptance. PRECODE HOLD.
