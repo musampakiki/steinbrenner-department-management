@@ -58,3 +58,6 @@ HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_AR
 
 ## ARBEIT-ARCH-26 — negative-proof feasibility and acceptance blockers
 [DM consumer readiness](HR_NEGATIVE_PROOF_DM_ACCEPTANCE_BLOCKERS_ARCH_26.md). HR authoritative no-record lookup is CONDITIONALLY FEASIBLE but NOT DEMONSTRATED; issuer signature, retention window and replay guarantees missing. CO-02 BLOCKED_EXTERNAL_OWNER; CO-01 UNSIGNED; Auth/Tenancy/KMS/Audit open; CO-12 QA/MET NOT AUTHORIZED. No release/PRECODE grant.
+
+## ARCH-27 retention owner/negative-proof enablement choice
+[DM readiness](HR_ARCH_27_DM_CONSUMER_ACCEPTANCE_READINESS.md): HR retention selection and NO_RECORD_CONFIRMED enable/disable decision NOT RECORDED. CO-02 HR blocked, CO-01 DM unsigned, Auth/KMS, QA/MET and PRECODE blocked. No contract accepted.
