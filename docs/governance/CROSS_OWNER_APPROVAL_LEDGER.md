@@ -52,3 +52,6 @@ HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_AR
 
 ## ARBEIT-ARCH-24 — consolidated evidence / no approval change
 [DM owner signoff readiness](HR_DM_CONSUMER_EVIDENCE_READINESS_ARCH_24.md) pins HR FC4 `d1306a7e80492f11ac00ce25a9533142b24573b0`, HR ARCH-21 `eb217a3f9945a5d8ff98a065cd290f1eff57bad5`, HR ARCH-22 `2e23d518db663686830853e65d2eb4f8b12a2bce`, HR ARCH-23 `bf285c20bed4764adb5b375b4e09bae91ea171b5`. CO-01 DM unsigned, CO-02 HR external blocked, CO-06/07 Auth/KMS external blocked, CO-12 QA/MET not authorized. No issuer contract version or retention choice accepted; PRECODE HOLD.
+
+## ARCH-25 retention and negative-proof signoff checkpoint
+[DM consumer gate](HR_RETENTION_CONSUMER_DECISION_GATE_ARCH_25.md). HR owner has not selected or signed a retention duration, tombstone period or NO_RECORD_CONFIRMED guarantee. CO-02 BLOCKED_EXTERNAL_OWNER; CO-01 UNSIGNED; security/KMS/Audit and QA/MET OPEN; PRECODE HOLD.
