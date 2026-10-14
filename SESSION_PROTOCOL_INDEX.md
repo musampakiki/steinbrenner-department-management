@@ -21,3 +21,5 @@ Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first 
 - [ARBEIT-ARCH-21 operation lookup/recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_21_RECEIPT_PERSISTENCE_LOOKUP.md): [DM consumer design](docs/contracts/HR_OPERATION_LOOKUP_DM_RECOVERY_ARCH_21.md); HR owner doc blob eb217a3f9945a5d8ff98a065cd290f1eff57bad5; no approval.
 
 - [ARCH-22 outcome lookup](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_22_OUTCOME_LEDGER.md): [DM recovery mapping](docs/contracts/HR_OUTCOME_DM_RECOVERY_ARCH_22.md); unsigned.
+
+- [ARCH-23 lookup failure and cross-module recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_23_FAILURE_RETENTION_RECOVERY.md): [DM recovery mapping](docs/contracts/HR_LOOKUP_DM_RECOVERY_PROOF_ARCH_23.md), unsigned.
