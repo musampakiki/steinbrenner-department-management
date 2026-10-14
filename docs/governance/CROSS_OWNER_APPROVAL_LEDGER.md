@@ -37,3 +37,6 @@ HR receipt freeze candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`, not
 
 ## ARCH-16 signoff readiness
 HR issuer candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`; DM signoff checklist [here](HR_PLACEMENT_CONSUMER_SIGNOFF_PREPARATION_ARCH_16.md). CO-01 UNSIGNED; CO-02 BLOCKED_EXTERNAL_OWNER; no HR contract approval or DM consumer acceptance. PRECODE HOLD.
+
+## ARCH-19 FC3 receipt-state checkpoint
+HR source candidate FC3 blob `a12ca2ca4a176fac28715dc9772783e22365c46d`; [DM mapping](../contracts/HR_FC3_DM_CONSUMER_MAPPING_ARCH_19.md). Open: pre-intake rejection without intakeRef, local timeout vs issuer UNKNOWN, accepted currentness, Auth/KMS. CO-01/CO-02 UNSIGNED/BLOCKED; QA not executed; PRECODE HOLD.
