@@ -55,3 +55,6 @@ HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_AR
 
 ## ARCH-25 retention and negative-proof signoff checkpoint
 [DM consumer gate](HR_RETENTION_CONSUMER_DECISION_GATE_ARCH_25.md). HR owner has not selected or signed a retention duration, tombstone period or NO_RECORD_CONFIRMED guarantee. CO-02 BLOCKED_EXTERNAL_OWNER; CO-01 UNSIGNED; security/KMS/Audit and QA/MET OPEN; PRECODE HOLD.
+
+## ARBEIT-ARCH-26 — negative-proof feasibility and acceptance blockers
+[DM consumer readiness](HR_NEGATIVE_PROOF_DM_ACCEPTANCE_BLOCKERS_ARCH_26.md). HR authoritative no-record lookup is CONDITIONALLY FEASIBLE but NOT DEMONSTRATED; issuer signature, retention window and replay guarantees missing. CO-02 BLOCKED_EXTERNAL_OWNER; CO-01 UNSIGNED; Auth/Tenancy/KMS/Audit open; CO-12 QA/MET NOT AUTHORIZED. No release/PRECODE grant.
