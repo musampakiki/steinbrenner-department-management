@@ -61,3 +61,6 @@ HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_AR
 
 ## ARCH-27 retention owner/negative-proof enablement choice
 [DM readiness](HR_ARCH_27_DM_CONSUMER_ACCEPTANCE_READINESS.md): HR retention selection and NO_RECORD_CONFIRMED enable/disable decision NOT RECORDED. CO-02 HR blocked, CO-01 DM unsigned, Auth/KMS, QA/MET and PRECODE blocked. No contract accepted.
+
+## ARBEIT-ADR-02 adoption
+Read-only HR architecture blob d3fb09b9e0e0c1f29aa49489a51fe1e0191289ef. User-selected bounded retention and R1 no-negative-proof direction documented; 180/365 days engineering proposals only. CO-02 HR legal/API issuer approval OPEN; CO-01 DM consumer unsigned. No QA/MET/PRECODE.
