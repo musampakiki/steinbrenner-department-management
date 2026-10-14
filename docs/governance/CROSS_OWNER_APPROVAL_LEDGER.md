@@ -31,3 +31,6 @@ DM first reviews its own draft. HR issuer signs an **actual** wire, then DM acce
 
 ## ARBEIT-ARCH-14 — CO-01/CO-02 bilateral decision hold
 [Read-only HR/DM comparison](../contracts/HR_DM_BILATERAL_CONSUMER_SIGNOFF_GATE_ARCH_14.md), source candidate pins HR `c093cc449780ed935127dac4df0d144c7fe6be4a` and DM `e63ac587be1bf41d6c38a760677aa336669cdb9d`. Target alignment documented for receipt/currentness/idempotency; issuer signatures and accepted version/transport remain absent. **CO-01 UNSIGNED; CO-02 BLOCKED_EXTERNAL_OWNER; BILATERAL NOT_SIGNED.**
+
+## ARCH-15 CO-02 checkpoint
+HR receipt freeze candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`, not accepted wire. [DM compatibility review](../contracts/HR_PLACEMENT_RECEIPT_CONSUMER_COMPATIBILITY_ARCH_15.md). CO-01 unsigned, CO-02 blocked, QA/MET not executed, PRECODE HOLD.
