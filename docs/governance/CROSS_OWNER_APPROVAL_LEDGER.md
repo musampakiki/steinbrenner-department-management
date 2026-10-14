@@ -49,3 +49,6 @@ HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_AR
 
 ## ARCH-23 retention/lookup signoff checkpoint
 [DM consumer proof](../contracts/HR_LOOKUP_DM_RECOVERY_PROOF_ARCH_23.md); HR issuer lookup/retention remains candidate and unsigned, with no agreed horizon. CO-01 DM owner unsigned; CO-02 HR issuer blocked; Auth/KMS/QA/MET and PRECODE remain blocked.
+
+## ARBEIT-ARCH-24 — consolidated evidence / no approval change
+[DM owner signoff readiness](HR_DM_CONSUMER_EVIDENCE_READINESS_ARCH_24.md) pins HR FC4 `d1306a7e80492f11ac00ce25a9533142b24573b0`, HR ARCH-21 `eb217a3f9945a5d8ff98a065cd290f1eff57bad5`, HR ARCH-22 `2e23d518db663686830853e65d2eb4f8b12a2bce`, HR ARCH-23 `bf285c20bed4764adb5b375b4e09bae91ea171b5`. CO-01 DM unsigned, CO-02 HR external blocked, CO-06/07 Auth/KMS external blocked, CO-12 QA/MET not authorized. No issuer contract version or retention choice accepted; PRECODE HOLD.
