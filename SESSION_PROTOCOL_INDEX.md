@@ -23,3 +23,5 @@ Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first 
 - [ARCH-22 outcome lookup](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_22_OUTCOME_LEDGER.md): [DM recovery mapping](docs/contracts/HR_OUTCOME_DM_RECOVERY_ARCH_22.md); unsigned.
 
 - [ARCH-23 lookup failure and cross-module recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_23_FAILURE_RETENTION_RECOVERY.md): [DM recovery mapping](docs/contracts/HR_LOOKUP_DM_RECOVERY_PROOF_ARCH_23.md), unsigned.
+
+- [ARBEIT-ARCH-24 evidence consolidation](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_24_EVIDENCE_READINESS_AUDIT.md): [DM consumer signoff readiness](docs/governance/HR_DM_CONSUMER_EVIDENCE_READINESS_ARCH_24.md). HR issuer and DM signatures OPEN; PRECODE HOLD.
