@@ -29,3 +29,5 @@ Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first 
 - [ARBEIT-ARCH-25 retention owner decision](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_25_OWNER_RETENTION_DECISION.md): [DM signoff gate](docs/governance/HR_RETENTION_CONSUMER_DECISION_GATE_ARCH_25.md); no accepted HR policy or DM signature.
 
 - [ARBEIT-ARCH-26 owner evidence audit](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_26_OWNER_EVIDENCE_FEASIBILITY.md): [consumer blockers](docs/governance/HR_NEGATIVE_PROOF_DM_ACCEPTANCE_BLOCKERS_ARCH_26.md). HR and DM signatures absent; PRECODE HOLD.
+
+- [ARBEIT-ARCH-27 owner readiness](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_27_OWNER_CHOICE_READINESS.md): [consumer signoff gate](docs/governance/HR_ARCH_27_DM_CONSUMER_ACCEPTANCE_READINESS.md), HR/DM unsigned.
