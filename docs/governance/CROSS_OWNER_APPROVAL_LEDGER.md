@@ -43,3 +43,6 @@ HR source candidate FC3 blob `a12ca2ca4a176fac28715dc9772783e22365c46d`; [DM map
 
 ## ARCH-20 FC4 checkpoint
 HR candidate blob `d1306a7e80492f11ac00ce25a9533142b24573b0`, [DM mapping](../contracts/HR_FC4_CONSUMER_MAPPING_ARCH_20.md). HR PRE_INTAKE_REJECTION differs from recorded INTAKE UNKNOWN and DM_LOCAL_TRANSPORT_UNKNOWN. No accepted wire, no issuer signing/currentness proof. CO-01/CO-02 remain unsigned/blocked; PRECODE HOLD.
+
+## ARCH-21 receipt persistence and lookup checkpoint
+HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_ARCH_21.md` blob `eb217a3f9945a5d8ff98a065cd290f1eff57bad5`; [DM recovery mapping](../contracts/HR_OPERATION_LOOKUP_DM_RECOVERY_ARCH_21.md). CO-02 HR issuer signatures and verified query/crypto proof OPEN. CO-01 DM consumer unsigned, PRECODE HOLD.
