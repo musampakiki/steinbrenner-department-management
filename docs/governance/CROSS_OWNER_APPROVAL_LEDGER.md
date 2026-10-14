@@ -46,3 +46,6 @@ HR candidate blob `d1306a7e80492f11ac00ce25a9533142b24573b0`, [DM mapping](../co
 
 ## ARCH-21 receipt persistence and lookup checkpoint
 HR owner draft source `docs/contracts/HR_FC4_RECEIPT_PERSISTENCE_TRUST_LOOKUP_ARCH_21.md` blob `eb217a3f9945a5d8ff98a065cd290f1eff57bad5`; [DM recovery mapping](../contracts/HR_OPERATION_LOOKUP_DM_RECOVERY_ARCH_21.md). CO-02 HR issuer signatures and verified query/crypto proof OPEN. CO-01 DM consumer unsigned, PRECODE HOLD.
+
+## ARCH-23 retention/lookup signoff checkpoint
+[DM consumer proof](../contracts/HR_LOOKUP_DM_RECOVERY_PROOF_ARCH_23.md); HR issuer lookup/retention remains candidate and unsigned, with no agreed horizon. CO-01 DM owner unsigned; CO-02 HR issuer blocked; Auth/KMS/QA/MET and PRECODE remain blocked.
