@@ -31,3 +31,5 @@ Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first 
 - [ARBEIT-ARCH-26 owner evidence audit](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_26_OWNER_EVIDENCE_FEASIBILITY.md): [consumer blockers](docs/governance/HR_NEGATIVE_PROOF_DM_ACCEPTANCE_BLOCKERS_ARCH_26.md). HR and DM signatures absent; PRECODE HOLD.
 
 - [ARBEIT-ARCH-27 owner readiness](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_27_OWNER_CHOICE_READINESS.md): [consumer signoff gate](docs/governance/HR_ARCH_27_DM_CONSUMER_ACCEPTANCE_READINESS.md), HR/DM unsigned.
+
+- [ARBEIT-ADR-02 independent retention adoption](docs/governance/protocols/2026-10-14_ARBEIT_ADR_02_RETENTION_ADOPTION.md): [DM mapping](docs/governance/ARBEIT_ADR_02_DM_CONSUMER_ADOPTION.md). HR source blob d3fb09b9e0e0c1f29aa49489a51fe1e0191289ef; consumer signature OPEN.
