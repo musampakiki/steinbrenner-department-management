@@ -1,35 +1,17 @@
 # Department Management — session protocol index
 Working branch: `agent/department-management-development`.
 Policy: read AGENTS.md, CANONICAL_REFERENCES.md and newest protocol. OPEN first file write; CLOSED last file write.
-- [2026-10-14 ARBEIT-ARCH-10 bootstrap](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_10_BOOTSTRAP.md) — documentary bootstrap/adoption package; see protocol for actual verified final status.
-**HOLD:** DOC REVIEW / PRECODE HOLD / R1 NO-GO; no accepted wire or release.
 
-- [2026-10-14 ARBEIT-ARCH-11 issuer versioning / HR pins / approval ledger](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_11_ISSUER_PINS_APPROVALS.md) — documentary package, statuses and evidence in linked CLOSED protocol.
+- [2026-10-14 ARBEIT-ARCH-10 bootstrap](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_10_BOOTSTRAP.md) — documentary bootstrap/adoption package.
+- [2026-10-14 ARBEIT-ARCH-11 issuer versioning / HR pins / approval ledger](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_11_ISSUER_PINS_APPROVALS.md) — issuer versions and approval ledger.
+- [2026-10-14 ARBEIT-ARCH-12 HR staffing negotiation and assignment consistency](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_12_HR_STAFFING_CONSISTENCY.md) — HR acceptance pending.
+- [ARBEIT-ARCH-14 bilateral reconciliation and signoff gate](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_14_BILATERAL_RECONCILIATION.md) — no accepted HR wire or bilateral signatures.
+- [ARCH-15 receipt freeze candidate](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_15_RECEIPT_FREEZE_CANDIDATE.md) — candidate only.
+- [ARCH-16 issuer decision / DM signoff prep](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_16_ISSUER_DECISION.md) — approvals open.
+- [ARBEIT-ARCH-19 through 27](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_27_OWNER_CHOICE_READINESS.md) — FC3/FC4, lookup/recovery, retention and owner readiness; HR/DM signatures absent.
+- [ARBEIT-ADR-02 independent retention adoption](docs/governance/protocols/2026-10-14_ARBEIT_ADR_02_RETENTION_ADOPTION.md) — consumer adoption; issuer signature open.
+- [ARBEIT-ARCH-28 — Retention and Issuer Contract Blocker Reconciliation](docs/governance/protocols/2026-10-31_ARBEIT_ARCH_28_RETENTION_AND_CONTRACT_BLOCKERS.md) — OPEN documentary audit; HR retention, negative-proof feasibility, issuer contract and DM acceptance remain blocked.
 
-- [2026-10-14 ARBEIT-ARCH-12 HR staffing negotiation and assignment consistency](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_12_HR_STAFFING_CONSISTENCY.md) — documentary negotiation proposed; HR acceptance pending.
+**HOLD:** DOC REVIEW / PRECODE HOLD / R1 NO-GO / RELEASE HOLD. No accepted wire or release.
 
-- [ARBEIT-ARCH-14 bilateral reconciliation and signoff gate](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_14_BILATERAL_RECONCILIATION.md): [DM consumer review](docs/contracts/HR_DM_BILATERAL_CONSUMER_SIGNOFF_GATE_ARCH_14.md), no accepted HR wire or bilateral signatures; PRECODE HOLD.
-
-- [ARCH-15 review protocol](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_15_RECEIPT_FREEZE_CANDIDATE.md); [DM consumer mapping](docs/contracts/HR_PLACEMENT_RECEIPT_CONSUMER_COMPATIBILITY_ARCH_15.md). HR candidate blob `bc942a0f5d1834a85df53d5f75fdef495810647b`; approvals OPEN.
-
-- [ARCH-16 HR issuer decision / DM signoff prep](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_16_ISSUER_DECISION.md): [consumer signoff gate](docs/governance/HR_PLACEMENT_CONSUMER_SIGNOFF_PREPARATION_ARCH_16.md); approvals OPEN.
-
-- [ARBEIT-ARCH-19 FC3 consumer mapping](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_19_FC3_CONFORMANCE.md) and [DM mapping](docs/contracts/HR_FC3_DM_CONSUMER_MAPPING_ARCH_19.md): HR schema blob `a12ca2ca4a176fac28715dc9772783e22365c46d`; no issuer/consumer approval.
-
-- [ARBEIT-ARCH-20 HR FC4/consumer timeout](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_20_FC4_AUTHORITY_SEPARATION.md): [DM mapping](docs/contracts/HR_FC4_CONSUMER_MAPPING_ARCH_20.md), HR candidate blob `d1306a7e80492f11ac00ce25a9533142b24573b0`. No signoff.
-
-- [ARBEIT-ARCH-21 operation lookup/recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_21_RECEIPT_PERSISTENCE_LOOKUP.md): [DM consumer design](docs/contracts/HR_OPERATION_LOOKUP_DM_RECOVERY_ARCH_21.md); HR owner doc blob eb217a3f9945a5d8ff98a065cd290f1eff57bad5; no approval.
-
-- [ARCH-22 outcome lookup](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_22_OUTCOME_LEDGER.md): [DM recovery mapping](docs/contracts/HR_OUTCOME_DM_RECOVERY_ARCH_22.md); unsigned.
-
-- [ARCH-23 lookup failure and cross-module recovery](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_23_FAILURE_RETENTION_RECOVERY.md): [DM recovery mapping](docs/contracts/HR_LOOKUP_DM_RECOVERY_PROOF_ARCH_23.md), unsigned.
-
-- [ARBEIT-ARCH-24 evidence consolidation](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_24_EVIDENCE_READINESS_AUDIT.md): [DM consumer signoff readiness](docs/governance/HR_DM_CONSUMER_EVIDENCE_READINESS_ARCH_24.md). HR issuer and DM signatures OPEN; PRECODE HOLD.
-
-- [ARBEIT-ARCH-25 retention owner decision](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_25_OWNER_RETENTION_DECISION.md): [DM signoff gate](docs/governance/HR_RETENTION_CONSUMER_DECISION_GATE_ARCH_25.md); no accepted HR policy or DM signature.
-
-- [ARBEIT-ARCH-26 owner evidence audit](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_26_OWNER_EVIDENCE_FEASIBILITY.md): [consumer blockers](docs/governance/HR_NEGATIVE_PROOF_DM_ACCEPTANCE_BLOCKERS_ARCH_26.md). HR and DM signatures absent; PRECODE HOLD.
-
-- [ARBEIT-ARCH-27 owner readiness](docs/governance/protocols/2026-10-14_ARBEIT_ARCH_27_OWNER_CHOICE_READINESS.md): [consumer signoff gate](docs/governance/HR_ARCH_27_DM_CONSUMER_ACCEPTANCE_READINESS.md), HR/DM unsigned.
-
-- [ARBEIT-ADR-02 independent retention adoption](docs/governance/protocols/2026-10-14_ARBEIT_ADR_02_RETENTION_ADOPTION.md): [DM mapping](docs/governance/ARBEIT_ADR_02_DM_CONSUMER_ADOPTION.md). HR source blob d3fb09b9e0e0c1f29aa49489a51fe1e0191289ef; consumer signature OPEN.
+Current artifact: [ARBEIT-ARCH-28 blocker ledger](docs/governance/ARBEIT_ARCH_28_RETENTION_AND_CONTRACT_BLOCKER_LEDGER.md). The 180/365-day windows remain proposals only; R1 negative-proof automatic replay remains disabled. Do not infer that a vanished or timed-out HR operation never committed. No tests, implementation, CI, migration, deployment, main, Empty Host or Platform Control changes are authorized.
